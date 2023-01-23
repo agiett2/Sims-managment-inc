@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  // background-color: #001F3F;
+}
+.text-blue {
+  color: #336699;
+  // color: #1a7ed2;
+}
+// .main-container {
+//   max-width: 1600px;
+//   margin: 0px auto;
+// }
+.app-container {
+  padding: 0px 5%;
+}
