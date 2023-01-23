@@ -1,0 +1,33 @@
+.footer-container {
+  .route {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  padding: 30px;
+  background-color: #073068;
+  color: #fff;
+  .title {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  @media (min-width: 991px) {
+    margin: 0px 10%;
+  }
+  ul li {
+    font-size: 1.6rem;
+    padding: 3px;
+    font-weight: 300;
+  }
+  .info {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    @media (min-width: 991px) {
+      margin: 0px 10%;
+    }
+  }
+  .copyright {
+    padding: 40px;
+    font-size: 1.4rem;
+  }
+}
