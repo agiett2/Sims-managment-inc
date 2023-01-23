@@ -24,3 +24,12 @@ body {
 .app-container {
   padding: 0px 5%;
 }
+
+.media-img {
+  width: 100%;
+  margin-bottom: 20px;
+  @media (min-width: 991px) {
+    height: 33rem;
+    width: 41rem;
+  }
+}
